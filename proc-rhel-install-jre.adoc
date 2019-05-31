@@ -1,0 +1,7 @@
+== Installing the OpenJDK JRE
+
+We do not provide a JRE install for OpenJDK 7/8. The JDK is a superset of the JRE, so everything in the JRE is included in the OpenJDK 7/8 download.
+
+The JRE was been deprecated and is not part of OpenJDK 11; however, the `jlink` tool can be used to create the equvalent of a JRE. 'jlink' creates custom runtimes that only include specified modules and their dependencies.
+
+TODO: Example how to create the equivalent of a JRE using `jlink`.
